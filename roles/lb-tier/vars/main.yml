@@ -1,0 +1,8 @@
+---
+# vars file for roles/lb-tier
+
+haproxy_pkg:
+ - haproxy
+ - firewalld
+haproxy_srv: haproxy
+

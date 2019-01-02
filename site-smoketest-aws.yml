@@ -1,0 +1,11 @@
+- hosts: frontends
+  gather_facts: false
+  tasks:
+  - name: Use Uri module for wrting smoke test.
+    uri:
+        url: "http://{{ ansible_host }}"
+        method: GET
+        status_code: 200
+        return_content: no
+
+  - name: Fail if 'Ansible has done its job' is not in the page content
