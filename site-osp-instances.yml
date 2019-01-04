@@ -1,9 +1,9 @@
 - hosts: jumpbox
 #  become: yes
-#  roles:
+  roles:
 #     - osp-network
 #     - osp-keypair
-#     - osp-securitygroup
+      - osp-securitygroup
 #     - osp-flavor
   tasks:
 ##Create Fronend Instance

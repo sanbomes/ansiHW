@@ -1,4 +1,4 @@
 - hosts: jumpbox
   become: yes
   roles:
-    - osp-instance-delete
+    - osp-facts 

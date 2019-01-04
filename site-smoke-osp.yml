@@ -1,4 +1,4 @@
-- hosts: workstation
+- hosts: jumpbox
   gather_facts: false
   tasks:
   - name: OpenStack servers
@@ -8,6 +8,7 @@
     register: openstack_info
     tags:
       - osp.smoke
+
   - name: Curl website
     uri:
         url: "http://{{ ansible_host }}"
