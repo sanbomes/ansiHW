@@ -2,9 +2,9 @@
 #  become: yes
   roles:
 #     - osp-network
-     - osp-keypair
+#     - osp-keypair
      - osp-securitygroup
-     - osp-flavor
+#     - osp-flavor
   tasks:
 ##Create Fronend Instance
   - name: Create frontend instance
