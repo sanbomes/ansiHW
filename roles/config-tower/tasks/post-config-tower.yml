@@ -5,7 +5,7 @@
     organization: Default
     state: present
     scm_type: git
-    scm_url: https://github.com/sanbomes/ansible_advance_homework.git
+    scm_url: https://github.com/sanbomes/ansiHW.git
     #tower_config_file: "/root/ansible_advance_homework/tower_ansible.cfg"
 # Use tower module or tower-cli to create Ansible Tower project. Name of the project is specifed in ./vars/main.yml
 
