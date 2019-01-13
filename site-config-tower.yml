@@ -1,7 +1,5 @@
 - hosts: localhost 
   gather_facts: false 
   become: yes 
-  vars_files:
-    - opentcl_pass
   roles:
     - config-tower
