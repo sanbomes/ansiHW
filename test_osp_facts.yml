@@ -1,4 +1,0 @@
-- hosts: jumpbox
-  become: yes
-  roles:
-    - osp-facts 
